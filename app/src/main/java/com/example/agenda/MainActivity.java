@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
       setSupportActionBar(binding.toolbar);
         setContentView(binding.getRoot());
 
+        binding.bottomNavegationView.setItemIconTintList(null);
+
 
 
     }
